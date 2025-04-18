@@ -1,0 +1,1262 @@
+<anim ver="netanim-3.108" filetype="animation" >
+<node id="0" sysId="0" locX="0" locY="0" />
+<node id="1" sysId="0" locX="50" locY="0" />
+<node id="2" sysId="0" locX="100" locY="0" />
+<node id="3" sysId="0" locX="150" locY="0" />
+<node id="4" sysId="0" locX="200" locY="0" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="255" g="0" b="0" />
+<nu p="c" t="0" id="2" r="255" g="0" b="0" />
+<nu p="c" t="0" id="3" r="255" g="0" b="0" />
+<nu p="c" t="0" id="4" r="255" g="0" b="0" />
+<nonp2plinkproperties id="0" ipAddress="10.0.0.1~00:00:00:00:00:01" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="0" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="1" ipAddress="10.0.0.2~00:00:00:00:00:02" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="1" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="2" ipAddress="10.0.0.3~00:00:00:00:00:03" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="2" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="3" ipAddress="10.0.0.4~00:00:00:00:00:04" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="3" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="4" ipAddress="10.0.0.5~00:00:00:00:00:05" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="4" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<ip n="0" >
+<address >10.0.0.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="0" >
+<address >10.0.0.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.0.0.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.0.0.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.0.0.3</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.0.0.3</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="3" >
+<address >10.0.0.4</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="3" >
+<address >10.0.0.4</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="4" >
+<address >10.0.0.5</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="4" >
+<address >10.0.0.5</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ipv6 n="0" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="1" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="2" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="3" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="4" >
+<address >::1</address>
+
+</ipv6>
+<nu p="s" t="0" id="0" w="1" h="1" />
+<nu p="s" t="0" id="1" w="1" h="1" />
+<nu p="s" t="0" id="2" w="1" h="1" />
+<nu p="s" t="0" id="3" w="1" h="1" />
+<nu p="s" t="0" id="4" w="1" h="1" />
+<ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="d" t="0" id="0" descr="Nó 0" />
+<nu p="c" t="0" id="0" r="0" g="255" b="0" />
+<nu p="d" t="0" id="1" descr="Nó 1" />
+<nu p="c" t="0" id="1" r="0" g="255" b="0" />
+<nu p="d" t="0" id="2" descr="Nó 2" />
+<nu p="c" t="0" id="2" r="0" g="255" b="0" />
+<nu p="d" t="0" id="3" descr="Nó 3" />
+<nu p="c" t="0" id="3" r="0" g="255" b="0" />
+<nu p="d" t="0" id="4" descr="Nó 4" />
+<nu p="c" t="0" id="4" r="0" g="255" b="0" />
+<res rid="0" p="pc.png" />
+<res rid="1" p="server.png" />
+<nu p="i" t="0" id="0" rid="1" />
+<nu p="i" t="0" id="1" rid="0" />
+<nu p="i" t="0" id="2" rid="0" />
+<nu p="i" t="0" id="3" rid="0" />
+<nu p="i" t="0" id="4" rid="0" />
+<nu p="d" t="0" id="0" descr="Nó 0 - Início" />
+<nu p="d" t="0" id="1" descr="Nó 1" />
+<nu p="d" t="0" id="2" descr="Nó 2" />
+<nu p="d" t="0" id="3" descr="Nó 3" />
+<nu p="d" t="0" id="4" descr="Nó 4 - Geração" />
+<nu p="p" t="0.25" id="0" x="0.25" y="0" />
+<nu p="p" t="0.25" id="1" x="50.25" y="0" />
+<nu p="p" t="0.25" id="2" x="100.25" y="0" />
+<nu p="p" t="0.25" id="3" x="150.25" y="0" />
+<nu p="p" t="0.25" id="4" x="200.25" y="0" />
+<nu p="p" t="1.25" id="0" x="1.25" y="0" />
+<nu p="p" t="1.25" id="1" x="51.25" y="0" />
+<nu p="p" t="1.25" id="2" x="101.25" y="0" />
+<nu p="p" t="1.25" id="3" x="151.25" y="0" />
+<nu p="p" t="1.25" id="4" x="201.25" y="0" />
+<nu p="p" t="2.25" id="0" x="2.25" y="0" />
+<nu p="p" t="2.25" id="1" x="52.25" y="0" />
+<nu p="p" t="2.25" id="2" x="102.25" y="0" />
+<nu p="p" t="2.25" id="3" x="152.25" y="0" />
+<nu p="p" t="2.25" id="4" x="202.25" y="0" />
+<nu p="p" t="3.25" id="0" x="3.25" y="0" />
+<nu p="p" t="3.25" id="1" x="53.25" y="0" />
+<nu p="p" t="3.25" id="2" x="103.25" y="0" />
+<nu p="p" t="3.25" id="3" x="153.25" y="0" />
+<nu p="p" t="3.25" id="4" x="203.25" y="0" />
+<nu p="p" t="4.25" id="0" x="4.25" y="0" />
+<nu p="p" t="4.25" id="1" x="54.25" y="0" />
+<nu p="p" t="4.25" id="2" x="104.25" y="0" />
+<nu p="p" t="4.25" id="3" x="154.25" y="0" />
+<nu p="p" t="4.25" id="4" x="204.25" y="0" />
+<nu p="p" t="5" id="4" x="205" y="0" />
+<pr uId="1" fId="4" fbTx="5.00105" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=0) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:05 source ipv4: 10.0.0.5 dest ipv4: 10.0.0.4) ns3::WifiMacTrailer ()" />
+<wpr uId="1" tId="3" fbRx="5.001054167" lbRx="0" />
+<pr uId="2" fId="3" fbTx="5.001804167" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=0) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:04 source ipv4: 10.0.0.4 dest mac: 00-06-00:00:00:00:00:05 dest ipv4: 10.0.0.5) ns3::WifiMacTrailer ()" />
+<wpr uId="2" tId="2" fbRx="5.001808334" lbRx="0" />
+<wpr uId="2" tId="4" fbRx="5.001808334" lbRx="0" />
+<pr uId="3" fId="4" fbTx="5.002518334" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="3" tId="3" fbRx="5.002522501" lbRx="0" />
+<pr uId="4" fId="4" fbTx="5.003452334" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=1) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49153 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(5000;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="4" tId="3" fbRx="5.003456501" lbRx="0" />
+<pr uId="5" fId="3" fbTx="5.004390501" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="5" tId="2" fbRx="5.004394668" lbRx="0" />
+<wpr uId="5" tId="4" fbRx="5.004394668" lbRx="0" />
+<pr uId="6" fId="3" fbTx="5.013430501" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=1) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:04 source ipv4: 10.0.0.4 dest ipv4: 10.0.0.5) ns3::WifiMacTrailer ()" />
+<wpr uId="6" tId="2" fbRx="5.013434668" lbRx="0" />
+<wpr uId="6" tId="4" fbRx="5.013434668" lbRx="0" />
+<pr uId="7" fId="4" fbTx="5.014184668" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=2) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:05 source ipv4: 10.0.0.5 dest mac: 00-06-00:00:00:00:00:04 dest ipv4: 10.0.0.4) ns3::WifiMacTrailer ()" />
+<wpr uId="7" tId="3" fbRx="5.014188835" lbRx="0" />
+<pr uId="8" fId="3" fbTx="5.014898835" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="8" tId="2" fbRx="5.014903002" lbRx="0" />
+<wpr uId="8" tId="4" fbRx="5.014903002" lbRx="0" />
+<pr uId="9" fId="3" fbTx="5.015672835" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=2) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49153 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(5004;5000) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="9" tId="2" fbRx="5.015677002" lbRx="0" />
+<wpr uId="9" tId="4" fbRx="5.015677002" lbRx="0" />
+<pr uId="10" fId="4" fbTx="5.016611002" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="10" tId="3" fbRx="5.016615169" lbRx="0" />
+<pr uId="11" fId="4" fbTx="5.017045002" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=3) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5016;5004) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="11" tId="3" fbRx="5.017049169" lbRx="0" />
+<pr uId="12" fId="3" fbTx="5.017951169" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="12" tId="2" fbRx="5.017955336" lbRx="0" />
+<wpr uId="12" tId="4" fbRx="5.017955336" lbRx="0" />
+<pr uId="13" fId="4" fbTx="5.018725336" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=4) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5016;5004) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="13" tId="3" fbRx="5.018729503" lbRx="0" />
+<nu p="p" t="5.019661503" id="3" x="155.0196615" y="0" />
+<pr uId="14" fId="3" fbTx="5.019671503" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="14" tId="2" fbRx="5.01967567" lbRx="0" />
+<wpr uId="14" tId="4" fbRx="5.01967567" lbRx="0" />
+<pr uId="15" fId="3" fbTx="5.020025503" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=3) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49153 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(5019;5016) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="15" tId="2" fbRx="5.02002967" lbRx="0" />
+<wpr uId="15" tId="4" fbRx="5.02002967" lbRx="0" />
+<pr uId="16" fId="4" fbTx="5.02093167" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="16" tId="3" fbRx="5.020935837" lbRx="0" />
+<pr uId="17" fId="3" fbTx="5.027711503" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=4) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:04 source ipv4: 10.0.0.4 dest ipv4: 10.0.0.3) ns3::WifiMacTrailer ()" />
+<wpr uId="17" tId="2" fbRx="5.02771567" lbRx="0" />
+<wpr uId="17" tId="4" fbRx="5.02771567" lbRx="0" />
+<pr uId="18" fId="2" fbTx="5.02846567" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=0) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:03 source ipv4: 10.0.0.3 dest mac: 00-06-00:00:00:00:00:04 dest ipv4: 10.0.0.4) ns3::WifiMacTrailer ()" />
+<wpr uId="18" tId="1" fbRx="5.028469837" lbRx="0" />
+<wpr uId="18" tId="3" fbRx="5.028469837" lbRx="0" />
+<pr uId="19" fId="3" fbTx="5.029179837" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="19" tId="2" fbRx="5.029184004" lbRx="0" />
+<wpr uId="19" tId="4" fbRx="5.029184004" lbRx="0" />
+<pr uId="20" fId="3" fbTx="5.029533837" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=5) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49153 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(5019;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="20" tId="2" fbRx="5.029538004" lbRx="0" />
+<wpr uId="20" tId="4" fbRx="5.029538004" lbRx="0" />
+<pr uId="21" fId="2" fbTx="5.030472004" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="21" tId="1" fbRx="5.030476171" lbRx="0" />
+<wpr uId="21" tId="3" fbRx="5.030476171" lbRx="0" />
+<pr uId="22" fId="2" fbTx="5.033512004" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=1) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:03 source ipv4: 10.0.0.3 dest ipv4: 10.0.0.4) ns3::WifiMacTrailer ()" />
+<wpr uId="22" tId="1" fbRx="5.033516171" lbRx="0" />
+<wpr uId="22" tId="3" fbRx="5.033516171" lbRx="0" />
+<pr uId="23" fId="3" fbTx="5.034266171" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=6) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:04 source ipv4: 10.0.0.4 dest mac: 00-06-00:00:00:00:00:03 dest ipv4: 10.0.0.3) ns3::WifiMacTrailer ()" />
+<wpr uId="23" tId="2" fbRx="5.034270338" lbRx="0" />
+<wpr uId="23" tId="4" fbRx="5.034270338" lbRx="0" />
+<pr uId="24" fId="2" fbTx="5.034980338" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="24" tId="1" fbRx="5.034984505" lbRx="0" />
+<wpr uId="24" tId="3" fbRx="5.034984505" lbRx="0" />
+<pr uId="25" fId="2" fbTx="5.035874338" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=2) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49153 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(5030;5019) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="25" tId="1" fbRx="5.035878505" lbRx="0" />
+<wpr uId="25" tId="3" fbRx="5.035878505" lbRx="0" />
+<pr uId="26" fId="3" fbTx="5.036812505" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="26" tId="2" fbRx="5.036816672" lbRx="0" />
+<wpr uId="26" tId="4" fbRx="5.036816672" lbRx="0" />
+<pr uId="27" fId="3" fbTx="5.037166505" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=7) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5036;5030) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="27" tId="2" fbRx="5.037170672" lbRx="0" />
+<wpr uId="27" tId="4" fbRx="5.037170672" lbRx="0" />
+<pr uId="28" fId="2" fbTx="5.038072672" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="28" tId="1" fbRx="5.038076839" lbRx="0" />
+<wpr uId="28" tId="3" fbRx="5.038076839" lbRx="0" />
+<pr uId="29" fId="3" fbTx="5.038746839" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=8) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5036;5030) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="29" tId="2" fbRx="5.038751006" lbRx="0" />
+<wpr uId="29" tId="4" fbRx="5.038751006" lbRx="0" />
+<nu p="p" t="5.039683006" id="2" x="105.039683" y="0" />
+<pr uId="30" fId="2" fbTx="5.039693006" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="30" tId="1" fbRx="5.039697173" lbRx="0" />
+<wpr uId="30" tId="3" fbRx="5.039697173" lbRx="0" />
+<pr uId="31" fId="2" fbTx="5.040047006" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=3) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49153 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(5039;5036) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="31" tId="1" fbRx="5.040051173" lbRx="0" />
+<wpr uId="31" tId="3" fbRx="5.040051173" lbRx="0" />
+<pr uId="32" fId="3" fbTx="5.040953173" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="32" tId="2" fbRx="5.04095734" lbRx="0" />
+<wpr uId="32" tId="4" fbRx="5.04095734" lbRx="0" />
+<pr uId="33" fId="2" fbTx="5.041733006" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=4) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:03 source ipv4: 10.0.0.3 dest ipv4: 10.0.0.2) ns3::WifiMacTrailer ()" />
+<wpr uId="33" tId="1" fbRx="5.041737173" lbRx="0" />
+<wpr uId="33" tId="3" fbRx="5.041737173" lbRx="0" />
+<pr uId="34" fId="1" fbTx="5.042487173" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=0) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:02 source ipv4: 10.0.0.2 dest mac: 00-06-00:00:00:00:00:03 dest ipv4: 10.0.0.3) ns3::WifiMacTrailer ()" />
+<wpr uId="34" tId="0" fbRx="5.04249134" lbRx="0" />
+<wpr uId="34" tId="2" fbRx="5.04249134" lbRx="0" />
+<pr uId="35" fId="2" fbTx="5.04320134" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="35" tId="1" fbRx="5.043205507" lbRx="0" />
+<wpr uId="35" tId="3" fbRx="5.043205507" lbRx="0" />
+<pr uId="36" fId="2" fbTx="5.04379534" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=5) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49153 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(5039;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="36" tId="1" fbRx="5.043799507" lbRx="0" />
+<wpr uId="36" tId="3" fbRx="5.043799507" lbRx="0" />
+<pr uId="37" fId="1" fbTx="5.044733507" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="37" tId="0" fbRx="5.044737674" lbRx="0" />
+<wpr uId="37" tId="2" fbRx="5.044737674" lbRx="0" />
+<pr uId="38" fId="1" fbTx="5.053773507" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=1) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:02 source ipv4: 10.0.0.2 dest ipv4: 10.0.0.3) ns3::WifiMacTrailer ()" />
+<wpr uId="38" tId="0" fbRx="5.053777674" lbRx="0" />
+<wpr uId="38" tId="2" fbRx="5.053777674" lbRx="0" />
+<pr uId="39" fId="2" fbTx="5.054527674" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=6) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:03 source ipv4: 10.0.0.3 dest mac: 00-06-00:00:00:00:00:02 dest ipv4: 10.0.0.2) ns3::WifiMacTrailer ()" />
+<wpr uId="39" tId="1" fbRx="5.054531841" lbRx="0" />
+<wpr uId="39" tId="3" fbRx="5.054531841" lbRx="0" />
+<pr uId="40" fId="1" fbTx="5.055241841" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="40" tId="0" fbRx="5.055246008" lbRx="0" />
+<wpr uId="40" tId="2" fbRx="5.055246008" lbRx="0" />
+<pr uId="41" fId="1" fbTx="5.055675841" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=2) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49153 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(5044;5039) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="41" tId="0" fbRx="5.055680008" lbRx="0" />
+<wpr uId="41" tId="2" fbRx="5.055680008" lbRx="0" />
+<pr uId="42" fId="2" fbTx="5.056614008" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="42" tId="1" fbRx="5.056618175" lbRx="0" />
+<wpr uId="42" tId="3" fbRx="5.056618175" lbRx="0" />
+<pr uId="43" fId="2" fbTx="5.057068008" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=7) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5056;5044) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="43" tId="1" fbRx="5.057072175" lbRx="0" />
+<wpr uId="43" tId="3" fbRx="5.057072175" lbRx="0" />
+<pr uId="44" fId="1" fbTx="5.057974175" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="44" tId="0" fbRx="5.057978342" lbRx="0" />
+<wpr uId="44" tId="2" fbRx="5.057978342" lbRx="0" />
+<pr uId="45" fId="2" fbTx="5.058468342" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=8) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5056;5044) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="45" tId="1" fbRx="5.058472509" lbRx="0" />
+<wpr uId="45" tId="3" fbRx="5.058472509" lbRx="0" />
+<nu p="p" t="5.059404509" id="1" x="55.05940451" y="0" />
+<pr uId="46" fId="1" fbTx="5.059414509" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="46" tId="0" fbRx="5.059418676" lbRx="0" />
+<wpr uId="46" tId="2" fbRx="5.059418676" lbRx="0" />
+<pr uId="47" fId="1" fbTx="5.060048509" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=3) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49153 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(5059;5056) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="47" tId="0" fbRx="5.060052676" lbRx="0" />
+<wpr uId="47" tId="2" fbRx="5.060052676" lbRx="0" />
+<pr uId="48" fId="2" fbTx="5.060954676" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="48" tId="1" fbRx="5.060958843" lbRx="0" />
+<wpr uId="48" tId="3" fbRx="5.060958843" lbRx="0" />
+<pr uId="49" fId="1" fbTx="5.062454509" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=4) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:02 source ipv4: 10.0.0.2 dest ipv4: 10.0.0.1) ns3::WifiMacTrailer ()" />
+<wpr uId="49" tId="0" fbRx="5.062458676" lbRx="0" />
+<wpr uId="49" tId="2" fbRx="5.062458676" lbRx="0" />
+<pr uId="50" fId="0" fbTx="5.063208676" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=0) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:01 source ipv4: 10.0.0.1 dest mac: 00-06-00:00:00:00:00:02 dest ipv4: 10.0.0.2) ns3::WifiMacTrailer ()" />
+<wpr uId="50" tId="1" fbRx="5.063212843" lbRx="0" />
+<pr uId="51" fId="1" fbTx="5.063922843" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="51" tId="0" fbRx="5.06392701" lbRx="0" />
+<wpr uId="51" tId="2" fbRx="5.06392701" lbRx="0" />
+<pr uId="52" fId="1" fbTx="5.064396843" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=5) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49153 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(5059;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="52" tId="0" fbRx="5.06440101" lbRx="0" />
+<wpr uId="52" tId="2" fbRx="5.06440101" lbRx="0" />
+<pr uId="53" fId="0" fbTx="5.06533501" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="53" tId="1" fbRx="5.065339177" lbRx="0" />
+<pr uId="54" fId="0" fbTx="5.07137501" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=1) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (request source mac: 00-06-00:00:00:00:00:01 source ipv4: 10.0.0.1 dest ipv4: 10.0.0.2) ns3::WifiMacTrailer ()" />
+<wpr uId="54" tId="1" fbRx="5.071379177" lbRx="0" />
+<pr uId="55" fId="1" fbTx="5.072129177" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=6) ns3::LlcSnapHeader (type 0x806) ns3::ArpHeader (reply source mac: 00-06-00:00:00:00:00:02 source ipv4: 10.0.0.2 dest mac: 00-06-00:00:00:00:00:01 dest ipv4: 10.0.0.1) ns3::WifiMacTrailer ()" />
+<wpr uId="55" tId="0" fbRx="5.072133344" lbRx="0" />
+<wpr uId="55" tId="2" fbRx="5.072133344" lbRx="0" />
+<pr uId="56" fId="0" fbTx="5.072843344" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="56" tId="1" fbRx="5.072847511" lbRx="0" />
+<pr uId="57" fId="0" fbTx="5.073537344" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=2) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49153 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(5065;5059) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="57" tId="1" fbRx="5.073541511" lbRx="0" />
+<pr uId="58" fId="1" fbTx="5.074475511" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="58" tId="0" fbRx="5.074479678" lbRx="0" />
+<wpr uId="58" tId="2" fbRx="5.074479678" lbRx="0" />
+<pr uId="59" fId="1" fbTx="5.075029511" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=7) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5074;5065) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="59" tId="0" fbRx="5.075033678" lbRx="0" />
+<wpr uId="59" tId="2" fbRx="5.075033678" lbRx="0" />
+<pr uId="60" fId="0" fbTx="5.075935678" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="60" tId="1" fbRx="5.075939845" lbRx="0" />
+<pr uId="61" fId="1" fbTx="5.076669845" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=8) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49153 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(5074;5065) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="61" tId="0" fbRx="5.076674012" lbRx="0" />
+<wpr uId="61" tId="2" fbRx="5.076674012" lbRx="0" />
+<nu p="p" t="5.077606012" id="0" x="5.077606012" y="0" />
+<pr uId="62" fId="0" fbTx="5.077616012" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="62" tId="1" fbRx="5.077620179" lbRx="0" />
+<pr uId="63" fId="0" fbTx="5.077970012" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=3) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49153 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(5077;5074) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="63" tId="1" fbRx="5.077974179" lbRx="0" />
+<pr uId="64" fId="1" fbTx="5.078876179" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="64" tId="0" fbRx="5.078880346" lbRx="0" />
+<wpr uId="64" tId="2" fbRx="5.078880346" lbRx="0" />
+<nu p="p" t="5.5" id="0" x="6.632015916" y="0" />
+<nu p="p" t="5.5" id="1" x="56.68079595" y="0" />
+<nu p="p" t="5.5" id="2" x="106.7336496" y="0" />
+<nu p="p" t="5.5" id="3" x="156.7873072" y="0" />
+<nu p="p" t="5.5" id="4" x="206.84" y="0" />
+<nu p="p" t="5.75" id="0" x="7.552015933" y="0" />
+<nu p="p" t="5.75" id="1" x="57.60079596" y="0" />
+<nu p="p" t="5.75" id="2" x="107.6536496" y="0" />
+<nu p="p" t="5.75" id="3" x="157.7073072" y="0" />
+<nu p="p" t="5.75" id="4" x="207.7600001" y="0" />
+<nu p="p" t="6" id="0" x="8.472015949" y="0" />
+<nu p="p" t="6" id="1" x="58.52079598" y="0" />
+<nu p="p" t="6" id="2" x="108.5736496" y="0" />
+<nu p="p" t="6" id="3" x="158.6273072" y="0" />
+<nu p="p" t="6" id="4" x="208.6800001" y="0" />
+<nu p="p" t="6.25" id="0" x="9.392015966" y="0" />
+<nu p="p" t="6.25" id="1" x="59.440796" y="0" />
+<nu p="p" t="6.25" id="2" x="109.4936496" y="0" />
+<nu p="p" t="6.25" id="3" x="159.5473073" y="0" />
+<nu p="p" t="6.25" id="4" x="209.6000001" y="0" />
+<nu p="p" t="6.5" id="0" x="10.31201598" y="0" />
+<nu p="p" t="6.5" id="1" x="60.36079601" y="0" />
+<nu p="p" t="6.5" id="2" x="110.4136496" y="0" />
+<nu p="p" t="6.5" id="3" x="160.4673073" y="0" />
+<nu p="p" t="6.5" id="4" x="210.5200001" y="0" />
+<nu p="p" t="6.75" id="0" x="11.232016" y="0" />
+<nu p="p" t="6.75" id="1" x="61.28079603" y="0" />
+<nu p="p" t="6.75" id="2" x="111.3336497" y="0" />
+<nu p="p" t="6.75" id="3" x="161.3873073" y="0" />
+<nu p="p" t="6.75" id="4" x="211.4400001" y="0" />
+<nu p="p" t="7" id="0" x="12.15201602" y="0" />
+<nu p="p" t="7" id="1" x="62.20079605" y="0" />
+<nu p="p" t="7" id="2" x="112.2536497" y="0" />
+<nu p="p" t="7" id="3" x="162.3073073" y="0" />
+<nu p="p" t="7" id="4" x="212.3600001" y="0" />
+<nu p="p" t="7.25" id="0" x="13.07201603" y="0" />
+<nu p="p" t="7.25" id="1" x="63.12079606" y="0" />
+<nu p="p" t="7.25" id="2" x="113.1736497" y="0" />
+<nu p="p" t="7.25" id="3" x="163.2273073" y="0" />
+<nu p="p" t="7.25" id="4" x="213.2800002" y="0" />
+<nu p="p" t="7.5" id="1" x="64.04079608" y="0" />
+<nu p="p" t="7.5" id="2" x="114.0936497" y="0" />
+<nu p="p" t="7.5" id="3" x="164.1473073" y="0" />
+<nu p="p" t="7.5" id="4" x="214.2000002" y="0" />
+<nu p="p" t="7.75" id="0" x="14.91201607" y="0" />
+<nu p="p" t="7.75" id="2" x="115.0136497" y="0" />
+<nu p="p" t="7.75" id="3" x="165.0673074" y="0" />
+<nu p="p" t="7.75" id="4" x="215.1200002" y="0" />
+<nu p="p" t="8" id="0" x="15.83201608" y="0" />
+<nu p="p" t="8" id="1" x="65.88079611" y="0" />
+<nu p="p" t="8" id="4" x="216.0400002" y="0" />
+<nu p="p" t="8.25" id="0" x="16.7520161" y="0" />
+<nu p="p" t="8.25" id="1" x="66.80079613" y="0" />
+<nu p="p" t="8.25" id="2" x="116.8536498" y="0" />
+<nu p="p" t="8.25" id="3" x="166.9073074" y="0" />
+<nu p="p" t="8.5" id="0" x="17.67201612" y="0" />
+<nu p="p" t="8.5" id="1" x="67.72079615" y="0" />
+<nu p="p" t="8.5" id="2" x="117.7736498" y="0" />
+<nu p="p" t="8.5" id="3" x="167.8273074" y="0" />
+<nu p="p" t="8.5" id="4" x="217.8800002" y="0" />
+<nu p="p" t="8.75" id="0" x="18.59201613" y="0" />
+<nu p="p" t="8.75" id="1" x="68.64079616" y="0" />
+<nu p="p" t="8.75" id="2" x="118.6936498" y="0" />
+<nu p="p" t="8.75" id="3" x="168.7473074" y="0" />
+<nu p="p" t="8.75" id="4" x="218.8000003" y="0" />
+<nu p="p" t="9" id="0" x="19.51201615" y="0" />
+<nu p="p" t="9" id="1" x="69.56079618" y="0" />
+<nu p="p" t="9" id="2" x="119.6136498" y="0" />
+<nu p="p" t="9" id="3" x="169.6673074" y="0" />
+<nu p="p" t="9" id="4" x="219.7200003" y="0" />
+<nu p="p" t="9.25" id="0" x="20.43201617" y="0" />
+<nu p="p" t="9.25" id="1" x="70.4807962" y="0" />
+<nu p="p" t="9.25" id="2" x="120.5336498" y="0" />
+<nu p="p" t="9.25" id="3" x="170.5873075" y="0" />
+<nu p="p" t="9.25" id="4" x="220.6400003" y="0" />
+<nu p="p" t="9.5" id="0" x="21.35201618" y="0" />
+<nu p="p" t="9.5" id="1" x="71.40079621" y="0" />
+<nu p="p" t="9.5" id="2" x="121.4536498" y="0" />
+<nu p="p" t="9.5" id="3" x="171.5073075" y="0" />
+<nu p="p" t="9.5" id="4" x="221.5600003" y="0" />
+<nu p="p" t="9.75" id="0" x="22.2720162" y="0" />
+<nu p="p" t="9.75" id="1" x="72.32079623" y="0" />
+<nu p="p" t="9.75" id="2" x="122.3736499" y="0" />
+<nu p="p" t="9.75" id="3" x="172.4273075" y="0" />
+<nu p="p" t="9.75" id="4" x="222.4800003" y="0" />
+<nu p="p" t="10" id="4" x="223.4000003" y="0" />
+<nu p="p" t="10" id="0" x="23.19201622" y="0" />
+<nu p="p" t="10" id="1" x="73.24079625" y="0" />
+<nu p="p" t="10" id="2" x="123.2936499" y="0" />
+<nu p="p" t="10" id="3" x="173.3473075" y="0" />
+<pr uId="65" fId="4" fbTx="10.00005" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=5) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49154 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(10000;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="65" tId="3" fbRx="10.00005417" lbRx="0" />
+<pr uId="66" fId="3" fbTx="10.00098817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="66" tId="2" fbRx="10.00099233" lbRx="0" />
+<wpr uId="66" tId="4" fbRx="10.00099233" lbRx="0" />
+<pr uId="67" fId="3" fbTx="10.00134217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=9) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49154 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(10000;10000) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="67" tId="2" fbRx="10.00134633" lbRx="0" />
+<wpr uId="67" tId="4" fbRx="10.00134633" lbRx="0" />
+<pr uId="68" fId="4" fbTx="10.00228033" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="68" tId="3" fbRx="10.0022845" lbRx="0" />
+<pr uId="69" fId="4" fbTx="10.00325433" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=6) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10002;10000) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="69" tId="3" fbRx="10.0032585" lbRx="0" />
+<pr uId="70" fId="3" fbTx="10.0041605" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="70" tId="2" fbRx="10.00416467" lbRx="0" />
+<wpr uId="70" tId="4" fbRx="10.00416467" lbRx="0" />
+<pr uId="71" fId="4" fbTx="10.00471467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=7) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10002;10000) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="71" tId="3" fbRx="10.00471884" lbRx="0" />
+<nu p="p" t="10.00565084" id="3" x="173.3681026" y="0" />
+<pr uId="72" fId="3" fbTx="10.00566084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="72" tId="2" fbRx="10.005665" lbRx="0" />
+<wpr uId="72" tId="4" fbRx="10.005665" lbRx="0" />
+<pr uId="73" fId="3" fbTx="10.00601484" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=10) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49154 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(10005;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="73" tId="2" fbRx="10.006019" lbRx="0" />
+<wpr uId="73" tId="4" fbRx="10.006019" lbRx="0" />
+<pr uId="74" fId="2" fbTx="10.006953" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="74" tId="1" fbRx="10.00695717" lbRx="0" />
+<wpr uId="74" tId="3" fbRx="10.00695717" lbRx="0" />
+<pr uId="75" fId="2" fbTx="10.007307" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=9) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49154 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(10006;10005) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="75" tId="1" fbRx="10.00731117" lbRx="0" />
+<wpr uId="75" tId="3" fbRx="10.00731117" lbRx="0" />
+<pr uId="76" fId="3" fbTx="10.00824517" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="76" tId="2" fbRx="10.00824934" lbRx="0" />
+<wpr uId="76" tId="4" fbRx="10.00824934" lbRx="0" />
+<pr uId="77" fId="3" fbTx="10.00921917" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=11) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49154 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(10005;10002) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="77" tId="2" fbRx="10.00922334" lbRx="0" />
+<wpr uId="77" tId="4" fbRx="10.00922334" lbRx="0" />
+<pr uId="78" fId="4" fbTx="10.01012534" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="78" tId="3" fbRx="10.0101295" lbRx="0" />
+<pr uId="79" fId="3" fbTx="10.0109795" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=12) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10008;10006) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="79" tId="2" fbRx="10.01098367" lbRx="0" />
+<wpr uId="79" tId="4" fbRx="10.01098367" lbRx="0" />
+<pr uId="80" fId="2" fbTx="10.01188567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="80" tId="1" fbRx="10.01188984" lbRx="0" />
+<wpr uId="80" tId="3" fbRx="10.01188984" lbRx="0" />
+<pr uId="81" fId="3" fbTx="10.01243984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=13) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10008;10006) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="81" tId="2" fbRx="10.012444" lbRx="0" />
+<wpr uId="81" tId="4" fbRx="10.012444" lbRx="0" />
+<nu p="p" t="10.013376" id="2" x="123.3428736" y="0" />
+<pr uId="82" fId="2" fbTx="10.013386" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="82" tId="1" fbRx="10.01339017" lbRx="0" />
+<wpr uId="82" tId="3" fbRx="10.01339017" lbRx="0" />
+<pr uId="83" fId="2" fbTx="10.01374" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=10) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49154 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(10013;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="83" tId="1" fbRx="10.01374417" lbRx="0" />
+<wpr uId="83" tId="3" fbRx="10.01374417" lbRx="0" />
+<pr uId="84" fId="1" fbTx="10.01467817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="84" tId="0" fbRx="10.01468234" lbRx="0" />
+<wpr uId="84" tId="2" fbRx="10.01468234" lbRx="0" />
+<pr uId="85" fId="1" fbTx="10.01503217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=9) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49154 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(10014;10013) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="85" tId="0" fbRx="10.01503634" lbRx="0" />
+<wpr uId="85" tId="2" fbRx="10.01503634" lbRx="0" />
+<pr uId="86" fId="2" fbTx="10.01597034" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="86" tId="1" fbRx="10.01597451" lbRx="0" />
+<wpr uId="86" tId="3" fbRx="10.01597451" lbRx="0" />
+<pr uId="87" fId="2" fbTx="10.01636434" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=11) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49154 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(10013;10008) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="87" tId="1" fbRx="10.01636851" lbRx="0" />
+<wpr uId="87" tId="3" fbRx="10.01636851" lbRx="0" />
+<pr uId="88" fId="3" fbTx="10.01727051" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="88" tId="2" fbRx="10.01727467" lbRx="0" />
+<wpr uId="88" tId="4" fbRx="10.01727467" lbRx="0" />
+<pr uId="89" fId="2" fbTx="10.01788467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=12) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10015;10014) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="89" tId="1" fbRx="10.01788884" lbRx="0" />
+<wpr uId="89" tId="3" fbRx="10.01788884" lbRx="0" />
+<pr uId="90" fId="1" fbTx="10.01879084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="90" tId="0" fbRx="10.01879501" lbRx="0" />
+<wpr uId="90" tId="2" fbRx="10.01879501" lbRx="0" />
+<pr uId="91" fId="2" fbTx="10.01946501" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=13) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10015;10014) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="91" tId="1" fbRx="10.01946917" lbRx="0" />
+<wpr uId="91" tId="3" fbRx="10.01946917" lbRx="0" />
+<nu p="p" t="10.02040117" id="1" x="73.31587256" y="0" />
+<pr uId="92" fId="1" fbTx="10.02041117" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="92" tId="0" fbRx="10.02041534" lbRx="0" />
+<wpr uId="92" tId="2" fbRx="10.02041534" lbRx="0" />
+<pr uId="93" fId="1" fbTx="10.02076517" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=10) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49154 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(10020;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="93" tId="0" fbRx="10.02076934" lbRx="0" />
+<wpr uId="93" tId="2" fbRx="10.02076934" lbRx="0" />
+<pr uId="94" fId="0" fbTx="10.02170334" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="94" tId="1" fbRx="10.02170751" lbRx="0" />
+<pr uId="95" fId="0" fbTx="10.02205734" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=4) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49154 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(10021;10020) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="95" tId="1" fbRx="10.02206151" lbRx="0" />
+<pr uId="96" fId="1" fbTx="10.02299551" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="96" tId="0" fbRx="10.02299967" lbRx="0" />
+<wpr uId="96" tId="2" fbRx="10.02299967" lbRx="0" />
+<pr uId="97" fId="1" fbTx="10.02380951" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=11) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49154 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(10020;10015) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="97" tId="0" fbRx="10.02381367" lbRx="0" />
+<wpr uId="97" tId="2" fbRx="10.02381367" lbRx="0" />
+<pr uId="98" fId="2" fbTx="10.02471567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="98" tId="1" fbRx="10.02471984" lbRx="0" />
+<wpr uId="98" tId="3" fbRx="10.02471984" lbRx="0" />
+<pr uId="99" fId="1" fbTx="10.02546984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=12) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10022;10021) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="99" tId="0" fbRx="10.02547401" lbRx="0" />
+<wpr uId="99" tId="2" fbRx="10.02547401" lbRx="0" />
+<pr uId="100" fId="0" fbTx="10.02637601" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="100" tId="1" fbRx="10.02638017" lbRx="0" />
+<pr uId="101" fId="1" fbTx="10.02721018" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=13) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49154 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(10022;10021) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="101" tId="0" fbRx="10.02721434" lbRx="0" />
+<wpr uId="101" tId="2" fbRx="10.02721434" lbRx="0" />
+<nu p="p" t="10.02814634" id="0" x="23.29559476" y="0" />
+<pr uId="102" fId="0" fbTx="10.02815634" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="102" tId="1" fbRx="10.02816051" lbRx="0" />
+<pr uId="103" fId="0" fbTx="10.02851034" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=5) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 3 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49154 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(10028;10022) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="103" tId="1" fbRx="10.02851451" lbRx="0" />
+<pr uId="104" fId="1" fbTx="10.02941651" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="104" tId="0" fbRx="10.02942068" lbRx="0" />
+<wpr uId="104" tId="2" fbRx="10.02942068" lbRx="0" />
+<nu p="p" t="10.25" id="0" x="24.04324156" y="0" />
+<nu p="p" t="10.25" id="1" x="74.08962058" y="0" />
+<nu p="p" t="10.25" id="2" x="124.1402964" y="0" />
+<nu p="p" t="10.25" id="3" x="174.1915592" y="0" />
+<nu p="p" t="10.25" id="4" x="224.2425003" y="0" />
+<nu p="p" t="10.5" id="3" x="175.0340592" y="0" />
+<nu p="p" t="10.5" id="4" x="225.0850003" y="0" />
+<nu p="p" t="10.75" id="0" x="25.7282415" y="0" />
+<nu p="p" t="10.75" id="1" x="75.77462053" y="0" />
+<nu p="p" t="10.75" id="2" x="125.8252964" y="0" />
+<nu p="p" t="11" id="0" x="26.57074147" y="0" />
+<nu p="p" t="11" id="1" x="76.6171205" y="0" />
+<nu p="p" t="11" id="2" x="126.6677963" y="0" />
+<nu p="p" t="11" id="3" x="176.7190591" y="0" />
+<nu p="p" t="11" id="4" x="226.7700002" y="0" />
+<nu p="p" t="11.25" id="0" x="27.41324144" y="0" />
+<nu p="p" t="11.25" id="1" x="77.45962047" y="0" />
+<nu p="p" t="11.25" id="2" x="127.5102963" y="0" />
+<nu p="p" t="11.25" id="3" x="177.5615591" y="0" />
+<nu p="p" t="11.25" id="4" x="227.6125002" y="0" />
+<nu p="p" t="11.5" id="0" x="28.25574142" y="0" />
+<nu p="p" t="11.5" id="1" x="78.30212044" y="0" />
+<nu p="p" t="11.5" id="2" x="128.3527963" y="0" />
+<nu p="p" t="11.5" id="3" x="178.4040591" y="0" />
+<nu p="p" t="11.5" id="4" x="228.4550002" y="0" />
+<nu p="p" t="11.75" id="0" x="29.09824139" y="0" />
+<nu p="p" t="11.75" id="1" x="79.14462041" y="0" />
+<nu p="p" t="11.75" id="2" x="129.1952962" y="0" />
+<nu p="p" t="11.75" id="3" x="179.2465591" y="0" />
+<nu p="p" t="11.75" id="4" x="229.2975001" y="0" />
+<nu p="p" t="12" id="2" x="130.0377962" y="0" />
+<nu p="p" t="12" id="3" x="180.089059" y="0" />
+<nu p="p" t="12" id="4" x="230.1400001" y="0" />
+<nu p="p" t="12.25" id="0" x="30.78324133" y="0" />
+<nu p="p" t="12.25" id="1" x="80.82962036" y="0" />
+<nu p="p" t="12.5" id="0" x="31.6257413" y="0" />
+<nu p="p" t="12.5" id="1" x="81.67212033" y="0" />
+<nu p="p" t="12.5" id="2" x="131.7227962" y="0" />
+<nu p="p" t="12.5" id="3" x="181.774059" y="0" />
+<nu p="p" t="12.5" id="4" x="231.825" y="0" />
+<nu p="p" t="12.75" id="0" x="32.46824127" y="0" />
+<nu p="p" t="12.75" id="1" x="82.5146203" y="0" />
+<nu p="p" t="12.75" id="2" x="132.5652961" y="0" />
+<nu p="p" t="12.75" id="3" x="182.6165589" y="0" />
+<nu p="p" t="12.75" id="4" x="232.6675" y="0" />
+<nu p="p" t="13" id="0" x="33.31074124" y="0" />
+<nu p="p" t="13" id="1" x="83.35712027" y="0" />
+<nu p="p" t="13" id="2" x="133.4077961" y="0" />
+<nu p="p" t="13" id="3" x="183.4590589" y="0" />
+<nu p="p" t="13" id="4" x="233.51" y="0" />
+<nu p="p" t="13.25" id="0" x="34.15324122" y="0" />
+<nu p="p" t="13.25" id="1" x="84.19962024" y="0" />
+<nu p="p" t="13.25" id="2" x="134.2502961" y="0" />
+<nu p="p" t="13.25" id="3" x="184.3015589" y="0" />
+<nu p="p" t="13.25" id="4" x="234.3525" y="0" />
+<nu p="p" t="13.5" id="1" x="85.04212021" y="0" />
+<nu p="p" t="13.5" id="2" x="135.092796" y="0" />
+<nu p="p" t="13.5" id="3" x="185.1440589" y="0" />
+<nu p="p" t="13.5" id="4" x="235.1949999" y="0" />
+<nu p="p" t="13.75" id="0" x="35.83824116" y="0" />
+<nu p="p" t="13.75" id="4" x="236.0374999" y="0" />
+<nu p="p" t="14" id="0" x="36.68074113" y="0" />
+<nu p="p" t="14" id="1" x="86.72712016" y="0" />
+<nu p="p" t="14" id="2" x="136.777796" y="0" />
+<nu p="p" t="14" id="3" x="186.8290588" y="0" />
+<nu p="p" t="14.25" id="0" x="37.5232411" y="0" />
+<nu p="p" t="14.25" id="1" x="87.56962013" y="0" />
+<nu p="p" t="14.25" id="2" x="137.620296" y="0" />
+<nu p="p" t="14.25" id="3" x="187.6715588" y="0" />
+<nu p="p" t="14.25" id="4" x="237.7224998" y="0" />
+<nu p="p" t="14.5" id="0" x="38.36574107" y="0" />
+<nu p="p" t="14.5" id="1" x="88.4121201" y="0" />
+<nu p="p" t="14.5" id="2" x="138.4627959" y="0" />
+<nu p="p" t="14.5" id="3" x="188.5140587" y="0" />
+<nu p="p" t="14.5" id="4" x="238.5649998" y="0" />
+<nu p="p" t="14.75" id="0" x="39.20824104" y="0" />
+<nu p="p" t="14.75" id="1" x="89.25462007" y="0" />
+<nu p="p" t="14.75" id="2" x="139.3052959" y="0" />
+<nu p="p" t="14.75" id="3" x="189.3565587" y="0" />
+<nu p="p" t="14.75" id="4" x="239.4074998" y="0" />
+<nu p="p" t="15" id="4" x="240.2499998" y="0" />
+<nu p="p" t="15" id="0" x="40.05074102" y="0" />
+<nu p="p" t="15" id="1" x="90.09712004" y="0" />
+<nu p="p" t="15" id="2" x="140.1477959" y="0" />
+<nu p="p" t="15" id="3" x="190.1990587" y="0" />
+<pr uId="105" fId="4" fbTx="15.00005" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=8) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49155 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(15000;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="105" tId="3" fbRx="15.00005417" lbRx="0" />
+<pr uId="106" fId="3" fbTx="15.00098817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="106" tId="2" fbRx="15.00099233" lbRx="0" />
+<wpr uId="106" tId="4" fbRx="15.00099233" lbRx="0" />
+<pr uId="107" fId="3" fbTx="15.00134217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=14) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49155 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(15000;15000) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="107" tId="2" fbRx="15.00134633" lbRx="0" />
+<wpr uId="107" tId="4" fbRx="15.00134633" lbRx="0" />
+<pr uId="108" fId="4" fbTx="15.00228033" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="108" tId="3" fbRx="15.0022845" lbRx="0" />
+<pr uId="109" fId="4" fbTx="15.00263433" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=9) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15002;15000) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="109" tId="3" fbRx="15.0026385" lbRx="0" />
+<pr uId="110" fId="3" fbTx="15.0035405" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="110" tId="2" fbRx="15.00354467" lbRx="0" />
+<wpr uId="110" tId="4" fbRx="15.00354467" lbRx="0" />
+<pr uId="111" fId="4" fbTx="15.00429467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=10) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15002;15000) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="111" tId="3" fbRx="15.00429884" lbRx="0" />
+<nu p="p" t="15.00523084" id="3" x="190.2166866" y="0" />
+<pr uId="112" fId="3" fbTx="15.00524084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="112" tId="2" fbRx="15.005245" lbRx="0" />
+<wpr uId="112" tId="4" fbRx="15.005245" lbRx="0" />
+<pr uId="113" fId="3" fbTx="15.00575483" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=15) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49155 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(15005;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="113" tId="2" fbRx="15.005759" lbRx="0" />
+<wpr uId="113" tId="4" fbRx="15.005759" lbRx="0" />
+<pr uId="114" fId="2" fbTx="15.006693" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="114" tId="1" fbRx="15.00669717" lbRx="0" />
+<wpr uId="114" tId="3" fbRx="15.00669717" lbRx="0" />
+<pr uId="115" fId="2" fbTx="15.007047" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=14) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49155 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(15006;15005) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="115" tId="1" fbRx="15.00705117" lbRx="0" />
+<wpr uId="115" tId="3" fbRx="15.00705117" lbRx="0" />
+<pr uId="116" fId="3" fbTx="15.00798517" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="116" tId="2" fbRx="15.00798934" lbRx="0" />
+<wpr uId="116" tId="4" fbRx="15.00798934" lbRx="0" />
+<pr uId="117" fId="3" fbTx="15.00855917" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=16) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49155 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(15005;15002) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="117" tId="2" fbRx="15.00856334" lbRx="0" />
+<wpr uId="117" tId="4" fbRx="15.00856334" lbRx="0" />
+<pr uId="118" fId="4" fbTx="15.00946534" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="118" tId="3" fbRx="15.0094695" lbRx="0" />
+<pr uId="119" fId="3" fbTx="15.0103795" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=17) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15007;15006) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="119" tId="2" fbRx="15.01038367" lbRx="0" />
+<wpr uId="119" tId="4" fbRx="15.01038367" lbRx="0" />
+<pr uId="120" fId="2" fbTx="15.01128567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="120" tId="1" fbRx="15.01128984" lbRx="0" />
+<wpr uId="120" tId="3" fbRx="15.01128984" lbRx="0" />
+<pr uId="121" fId="3" fbTx="15.01223984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=18) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15007;15006) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="121" tId="2" fbRx="15.012244" lbRx="0" />
+<wpr uId="121" tId="4" fbRx="15.012244" lbRx="0" />
+<nu p="p" t="15.013176" id="2" x="140.192199" y="0" />
+<pr uId="122" fId="2" fbTx="15.013186" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="122" tId="1" fbRx="15.01319017" lbRx="0" />
+<wpr uId="122" tId="3" fbRx="15.01319017" lbRx="0" />
+<pr uId="123" fId="2" fbTx="15.01354" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=15) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49155 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(15013;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="123" tId="1" fbRx="15.01354417" lbRx="0" />
+<wpr uId="123" tId="3" fbRx="15.01354417" lbRx="0" />
+<pr uId="124" fId="1" fbTx="15.01447817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="124" tId="0" fbRx="15.01448234" lbRx="0" />
+<wpr uId="124" tId="2" fbRx="15.01448234" lbRx="0" />
+<pr uId="125" fId="1" fbTx="15.01483217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=14) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49155 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(15014;15013) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="125" tId="0" fbRx="15.01483634" lbRx="0" />
+<wpr uId="125" tId="2" fbRx="15.01483634" lbRx="0" />
+<pr uId="126" fId="2" fbTx="15.01577034" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="126" tId="1" fbRx="15.0157745" lbRx="0" />
+<wpr uId="126" tId="3" fbRx="15.0157745" lbRx="0" />
+<pr uId="127" fId="2" fbTx="15.01630434" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=16) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49155 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(15013;15007) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="127" tId="1" fbRx="15.0163085" lbRx="0" />
+<wpr uId="127" tId="3" fbRx="15.0163085" lbRx="0" />
+<pr uId="128" fId="3" fbTx="15.0172105" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="128" tId="2" fbRx="15.01721467" lbRx="0" />
+<wpr uId="128" tId="4" fbRx="15.01721467" lbRx="0" />
+<pr uId="129" fId="2" fbTx="15.01818467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=17) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15015;15014) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="129" tId="1" fbRx="15.01818884" lbRx="0" />
+<wpr uId="129" tId="3" fbRx="15.01818884" lbRx="0" />
+<pr uId="130" fId="1" fbTx="15.01909084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="130" tId="0" fbRx="15.01909501" lbRx="0" />
+<wpr uId="130" tId="2" fbRx="15.01909501" lbRx="0" />
+<pr uId="131" fId="2" fbTx="15.02004501" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=18) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15015;15014) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="131" tId="1" fbRx="15.02004917" lbRx="0" />
+<wpr uId="131" tId="3" fbRx="15.02004917" lbRx="0" />
+<nu p="p" t="15.02098117" id="1" x="90.16782659" y="0" />
+<pr uId="132" fId="1" fbTx="15.02099117" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="132" tId="0" fbRx="15.02099534" lbRx="0" />
+<wpr uId="132" tId="2" fbRx="15.02099534" lbRx="0" />
+<pr uId="133" fId="1" fbTx="15.02134517" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=15) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49155 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(15020;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="133" tId="0" fbRx="15.02134934" lbRx="0" />
+<wpr uId="133" tId="2" fbRx="15.02134934" lbRx="0" />
+<pr uId="134" fId="0" fbTx="15.02228334" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="134" tId="1" fbRx="15.02228751" lbRx="0" />
+<pr uId="135" fId="0" fbTx="15.02263734" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=6) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 4 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49155 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(15022;15020) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="135" tId="1" fbRx="15.02264151" lbRx="0" />
+<pr uId="136" fId="1" fbTx="15.02357551" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="136" tId="0" fbRx="15.02357967" lbRx="0" />
+<wpr uId="136" tId="2" fbRx="15.02357967" lbRx="0" />
+<pr uId="137" fId="1" fbTx="15.02410951" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=16) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49155 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(15020;15015) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="137" tId="0" fbRx="15.02411367" lbRx="0" />
+<wpr uId="137" tId="2" fbRx="15.02411367" lbRx="0" />
+<pr uId="138" fId="2" fbTx="15.02501567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="138" tId="1" fbRx="15.02501984" lbRx="0" />
+<wpr uId="138" tId="3" fbRx="15.02501984" lbRx="0" />
+<pr uId="139" fId="1" fbTx="15.02540984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=17) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15023;15022) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="139" tId="0" fbRx="15.02541401" lbRx="0" />
+<wpr uId="139" tId="2" fbRx="15.02541401" lbRx="0" />
+<pr uId="140" fId="0" fbTx="15.02631601" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="140" tId="1" fbRx="15.02632018" lbRx="0" />
+<pr uId="141" fId="1" fbTx="15.02703018" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=18) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49155 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(15023;15022) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="141" tId="0" fbRx="15.02703434" lbRx="0" />
+<wpr uId="141" tId="2" fbRx="15.02703434" lbRx="0" />
+<nu p="p" t="15.02796634" id="0" x="40.14498758" y="0" />
+<pr uId="142" fId="0" fbTx="15.02797634" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="142" tId="1" fbRx="15.02798051" lbRx="0" />
+<pr uId="143" fId="0" fbTx="15.02833034" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=7) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 5 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49155 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(15027;15023) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="143" tId="1" fbRx="15.02833451" lbRx="0" />
+<pr uId="144" fId="1" fbTx="15.02923651" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="144" tId="0" fbRx="15.02924068" lbRx="0" />
+<wpr uId="144" tId="2" fbRx="15.02924068" lbRx="0" />
+<nu p="p" t="15.25" id="0" x="41.16412211" y="0" />
+<nu p="p" t="15.25" id="1" x="91.21902304" y="0" />
+<nu p="p" t="15.25" id="2" x="141.2792212" y="0" />
+<nu p="p" t="15.25" id="3" x="191.3401771" y="0" />
+<nu p="p" t="15.25" id="4" x="241.3974998" y="0" />
+<nu p="p" t="15.5" id="0" x="42.31162215" y="0" />
+<nu p="p" t="15.5" id="1" x="92.36652308" y="0" />
+<nu p="p" t="15.5" id="2" x="142.4267212" y="0" />
+<nu p="p" t="15.5" id="3" x="192.4876771" y="0" />
+<nu p="p" t="15.5" id="4" x="242.5449998" y="0" />
+<nu p="p" t="15.75" id="0" x="43.45912219" y="0" />
+<nu p="p" t="15.75" id="1" x="93.51402312" y="0" />
+<nu p="p" t="15.75" id="2" x="143.5742213" y="0" />
+<nu p="p" t="15.75" id="3" x="193.6351772" y="0" />
+<nu p="p" t="15.75" id="4" x="243.6924999" y="0" />
+<nu p="p" t="16" id="0" x="44.60662222" y="0" />
+<nu p="p" t="16" id="1" x="94.66152316" y="0" />
+<nu p="p" t="16" id="2" x="144.7217213" y="0" />
+<nu p="p" t="16" id="3" x="194.7826772" y="0" />
+<nu p="p" t="16" id="4" x="244.8399999" y="0" />
+<nu p="p" t="16.25" id="0" x="45.75412226" y="0" />
+<nu p="p" t="16.25" id="1" x="95.80902319" y="0" />
+<nu p="p" t="16.25" id="2" x="145.8692213" y="0" />
+<nu p="p" t="16.25" id="3" x="195.9301773" y="0" />
+<nu p="p" t="16.25" id="4" x="245.9875" y="0" />
+<nu p="p" t="16.5" id="0" x="46.9016223" y="0" />
+<nu p="p" t="16.5" id="1" x="96.95652323" y="0" />
+<nu p="p" t="16.5" id="2" x="147.0167214" y="0" />
+<nu p="p" t="16.5" id="3" x="197.0776773" y="0" />
+<nu p="p" t="16.5" id="4" x="247.135" y="0" />
+<nu p="p" t="16.75" id="0" x="48.04912234" y="0" />
+<nu p="p" t="16.75" id="1" x="98.10402327" y="0" />
+<nu p="p" t="16.75" id="2" x="148.1642214" y="0" />
+<nu p="p" t="16.75" id="3" x="198.2251773" y="0" />
+<nu p="p" t="16.75" id="4" x="248.2825" y="0" />
+<nu p="p" t="17" id="0" x="49.19662238" y="0" />
+<nu p="p" t="17" id="1" x="99.25152331" y="0" />
+<nu p="p" t="17" id="2" x="149.3117214" y="0" />
+<nu p="p" t="17" id="3" x="199.3726774" y="0" />
+<nu p="p" t="17" id="4" x="249.4300001" y="0" />
+<nu p="p" t="17.25" id="0" x="50.34412241" y="0" />
+<nu p="p" t="17.25" id="1" x="100.3990233" y="0" />
+<nu p="p" t="17.25" id="2" x="150.4592215" y="0" />
+<nu p="p" t="17.25" id="3" x="200.5201774" y="0" />
+<nu p="p" t="17.25" id="4" x="250.5775001" y="0" />
+<nu p="p" t="17.5" id="0" x="51.49162245" y="0" />
+<nu p="p" t="17.5" id="1" x="101.5465234" y="0" />
+<nu p="p" t="17.5" id="2" x="151.6067215" y="0" />
+<nu p="p" t="17.5" id="3" x="201.6676775" y="0" />
+<nu p="p" t="17.5" id="4" x="251.7250001" y="0" />
+<nu p="p" t="17.75" id="0" x="52.63912249" y="0" />
+<nu p="p" t="17.75" id="1" x="102.6940234" y="0" />
+<nu p="p" t="17.75" id="2" x="152.7542216" y="0" />
+<nu p="p" t="17.75" id="3" x="202.8151775" y="0" />
+<nu p="p" t="17.75" id="4" x="252.8725002" y="0" />
+<nu p="p" t="18" id="0" x="53.78662253" y="0" />
+<nu p="p" t="18" id="1" x="103.8415235" y="0" />
+<nu p="p" t="18" id="2" x="153.9017216" y="0" />
+<nu p="p" t="18" id="3" x="203.9626775" y="0" />
+<nu p="p" t="18" id="4" x="254.0200002" y="0" />
+<nu p="p" t="18.25" id="0" x="54.93412257" y="0" />
+<nu p="p" t="18.25" id="1" x="104.9890235" y="0" />
+<nu p="p" t="18.25" id="2" x="155.0492216" y="0" />
+<nu p="p" t="18.25" id="3" x="205.1101776" y="0" />
+<nu p="p" t="18.25" id="4" x="255.1675003" y="0" />
+<nu p="p" t="18.5" id="0" x="56.0816226" y="0" />
+<nu p="p" t="18.5" id="1" x="106.1365235" y="0" />
+<nu p="p" t="18.5" id="2" x="156.1967217" y="0" />
+<nu p="p" t="18.5" id="3" x="206.2576776" y="0" />
+<nu p="p" t="18.5" id="4" x="256.3150003" y="0" />
+<nu p="p" t="18.75" id="0" x="57.22912264" y="0" />
+<nu p="p" t="18.75" id="1" x="107.2840236" y="0" />
+<nu p="p" t="18.75" id="2" x="157.3442217" y="0" />
+<nu p="p" t="18.75" id="3" x="207.4051776" y="0" />
+<nu p="p" t="18.75" id="4" x="257.4625003" y="0" />
+<nu p="p" t="19" id="0" x="58.37662268" y="0" />
+<nu p="p" t="19" id="1" x="108.4315236" y="0" />
+<nu p="p" t="19" id="2" x="158.4917217" y="0" />
+<nu p="p" t="19" id="3" x="208.5526777" y="0" />
+<nu p="p" t="19" id="4" x="258.6100004" y="0" />
+<nu p="p" t="19.25" id="0" x="59.52412272" y="0" />
+<nu p="p" t="19.25" id="1" x="109.5790237" y="0" />
+<nu p="p" t="19.25" id="2" x="159.6392218" y="0" />
+<nu p="p" t="19.25" id="3" x="209.7001777" y="0" />
+<nu p="p" t="19.25" id="4" x="259.7575004" y="0" />
+<nu p="p" t="19.5" id="0" x="60.67162276" y="0" />
+<nu p="p" t="19.5" id="1" x="110.7265237" y="0" />
+<nu p="p" t="19.5" id="2" x="160.7867218" y="0" />
+<nu p="p" t="19.5" id="3" x="210.8476778" y="0" />
+<nu p="p" t="19.5" id="4" x="260.9050004" y="0" />
+<nu p="p" t="19.75" id="0" x="61.8191228" y="0" />
+<nu p="p" t="19.75" id="1" x="111.8740237" y="0" />
+<nu p="p" t="19.75" id="2" x="161.9342219" y="0" />
+<nu p="p" t="19.75" id="3" x="211.9951778" y="0" />
+<nu p="p" t="19.75" id="4" x="262.0525005" y="0" />
+<nu p="p" t="20" id="4" x="263.2000005" y="0" />
+<nu p="p" t="20" id="0" x="62.96662283" y="0" />
+<nu p="p" t="20" id="1" x="113.0215238" y="0" />
+<nu p="p" t="20" id="2" x="163.0817219" y="0" />
+<nu p="p" t="20" id="3" x="213.1426778" y="0" />
+<pr uId="145" fId="4" fbTx="20.00005" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=11) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49156 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(20000;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="145" tId="3" fbRx="20.00005417" lbRx="0" />
+<pr uId="146" fId="3" fbTx="20.00098817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="146" tId="2" fbRx="20.00099233" lbRx="0" />
+<wpr uId="146" tId="4" fbRx="20.00099233" lbRx="0" />
+<pr uId="147" fId="3" fbTx="20.00134217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=19) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49156 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(20000;20000) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="147" tId="2" fbRx="20.00134633" lbRx="0" />
+<wpr uId="147" tId="4" fbRx="20.00134633" lbRx="0" />
+<pr uId="148" fId="4" fbTx="20.00228033" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="148" tId="3" fbRx="20.0022845" lbRx="0" />
+<pr uId="149" fId="4" fbTx="20.00295433" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=12) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 10 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20002;20000) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="149" tId="3" fbRx="20.0029585" lbRx="0" />
+<pr uId="150" fId="3" fbTx="20.0038605" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="150" tId="2" fbRx="20.00386467" lbRx="0" />
+<wpr uId="150" tId="4" fbRx="20.00386467" lbRx="0" />
+<pr uId="151" fId="4" fbTx="20.00459467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=13) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 11 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20002;20000) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="151" tId="3" fbRx="20.00459883" lbRx="0" />
+<nu p="p" t="20.00553083" id="3" x="213.1680644" y="0" />
+<pr uId="152" fId="3" fbTx="20.00554084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="152" tId="2" fbRx="20.005545" lbRx="0" />
+<wpr uId="152" tId="4" fbRx="20.005545" lbRx="0" />
+<pr uId="153" fId="3" fbTx="20.00589483" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=20) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49156 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(20005;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="153" tId="2" fbRx="20.005899" lbRx="0" />
+<wpr uId="153" tId="4" fbRx="20.005899" lbRx="0" />
+<pr uId="154" fId="2" fbTx="20.006833" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="154" tId="1" fbRx="20.00683717" lbRx="0" />
+<wpr uId="154" tId="3" fbRx="20.00683717" lbRx="0" />
+<pr uId="155" fId="2" fbTx="20.007187" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=19) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49156 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(20006;20005) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="155" tId="1" fbRx="20.00719117" lbRx="0" />
+<wpr uId="155" tId="3" fbRx="20.00719117" lbRx="0" />
+<pr uId="156" fId="3" fbTx="20.00812517" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="156" tId="2" fbRx="20.00812934" lbRx="0" />
+<wpr uId="156" tId="4" fbRx="20.00812934" lbRx="0" />
+<pr uId="157" fId="3" fbTx="20.00909917" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=21) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49156 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(20005;20002) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="157" tId="2" fbRx="20.00910334" lbRx="0" />
+<wpr uId="157" tId="4" fbRx="20.00910334" lbRx="0" />
+<pr uId="158" fId="4" fbTx="20.01000534" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="158" tId="3" fbRx="20.0100095" lbRx="0" />
+<pr uId="159" fId="3" fbTx="20.0104395" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=22) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 10 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20008;20006) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="159" tId="2" fbRx="20.01044367" lbRx="0" />
+<wpr uId="159" tId="4" fbRx="20.01044367" lbRx="0" />
+<pr uId="160" fId="2" fbTx="20.01134567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="160" tId="1" fbRx="20.01134984" lbRx="0" />
+<wpr uId="160" tId="3" fbRx="20.01134984" lbRx="0" />
+<pr uId="161" fId="3" fbTx="20.01209984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=23) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 11 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20008;20006) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="161" tId="2" fbRx="20.012104" lbRx="0" />
+<wpr uId="161" tId="4" fbRx="20.012104" lbRx="0" />
+<nu p="p" t="20.013036" id="2" x="163.1415572" y="0" />
+<pr uId="162" fId="2" fbTx="20.013046" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="162" tId="1" fbRx="20.01305017" lbRx="0" />
+<wpr uId="162" tId="3" fbRx="20.01305017" lbRx="0" />
+<pr uId="163" fId="2" fbTx="20.0134" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=20) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49156 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(20013;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="163" tId="1" fbRx="20.01340417" lbRx="0" />
+<wpr uId="163" tId="3" fbRx="20.01340417" lbRx="0" />
+<pr uId="164" fId="1" fbTx="20.01433817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="164" tId="0" fbRx="20.01434234" lbRx="0" />
+<wpr uId="164" tId="2" fbRx="20.01434234" lbRx="0" />
+<pr uId="165" fId="1" fbTx="20.01469217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=19) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49156 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(20014;20013) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="165" tId="0" fbRx="20.01469634" lbRx="0" />
+<wpr uId="165" tId="2" fbRx="20.01469634" lbRx="0" />
+<pr uId="166" fId="2" fbTx="20.01563034" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="166" tId="1" fbRx="20.01563451" lbRx="0" />
+<wpr uId="166" tId="3" fbRx="20.01563451" lbRx="0" />
+<pr uId="167" fId="2" fbTx="20.01658434" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=21) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49156 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(20013;20008) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="167" tId="1" fbRx="20.01658851" lbRx="0" />
+<wpr uId="167" tId="3" fbRx="20.01658851" lbRx="0" />
+<pr uId="168" fId="3" fbTx="20.01749051" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="168" tId="2" fbRx="20.01749467" lbRx="0" />
+<wpr uId="168" tId="4" fbRx="20.01749467" lbRx="0" />
+<pr uId="169" fId="2" fbTx="20.01786467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=22) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 10 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20015;20014) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="169" tId="1" fbRx="20.01786884" lbRx="0" />
+<wpr uId="169" tId="3" fbRx="20.01786884" lbRx="0" />
+<pr uId="170" fId="1" fbTx="20.01877084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="170" tId="0" fbRx="20.01877501" lbRx="0" />
+<wpr uId="170" tId="2" fbRx="20.01877501" lbRx="0" />
+<pr uId="171" fId="2" fbTx="20.01912501" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=23) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 11 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20015;20014) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="171" tId="1" fbRx="20.01912917" lbRx="0" />
+<wpr uId="171" tId="3" fbRx="20.01912917" lbRx="0" />
+<nu p="p" t="20.02006117" id="1" x="113.1136046" y="0" />
+<pr uId="172" fId="1" fbTx="20.02007117" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="172" tId="0" fbRx="20.02007534" lbRx="0" />
+<wpr uId="172" tId="2" fbRx="20.02007534" lbRx="0" />
+<pr uId="173" fId="1" fbTx="20.02042517" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=20) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49156 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(20020;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="173" tId="0" fbRx="20.02042934" lbRx="0" />
+<wpr uId="173" tId="2" fbRx="20.02042934" lbRx="0" />
+<pr uId="174" fId="0" fbTx="20.02136334" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="174" tId="1" fbRx="20.02136751" lbRx="0" />
+<pr uId="175" fId="0" fbTx="20.02171734" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=8) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 6 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49156 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(20021;20020) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="175" tId="1" fbRx="20.02172151" lbRx="0" />
+<pr uId="176" fId="1" fbTx="20.02265551" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="176" tId="0" fbRx="20.02265967" lbRx="0" />
+<wpr uId="176" tId="2" fbRx="20.02265967" lbRx="0" />
+<pr uId="177" fId="1" fbTx="20.02344951" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=21) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49156 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(20020;20015) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="177" tId="0" fbRx="20.02345367" lbRx="0" />
+<wpr uId="177" tId="2" fbRx="20.02345367" lbRx="0" />
+<pr uId="178" fId="2" fbTx="20.02435567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="178" tId="1" fbRx="20.02435984" lbRx="0" />
+<wpr uId="178" tId="3" fbRx="20.02435984" lbRx="0" />
+<pr uId="179" fId="1" fbTx="20.02532984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=22) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 10 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20022;20021) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="179" tId="0" fbRx="20.02533401" lbRx="0" />
+<wpr uId="179" tId="2" fbRx="20.02533401" lbRx="0" />
+<pr uId="180" fId="0" fbTx="20.02623601" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="180" tId="1" fbRx="20.02624018" lbRx="0" />
+<pr uId="181" fId="1" fbTx="20.02665018" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=23) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 11 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49156 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(20022;20021) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="181" tId="0" fbRx="20.02665434" lbRx="0" />
+<wpr uId="181" tId="2" fbRx="20.02665434" lbRx="0" />
+<nu p="p" t="20.02758634" id="0" x="63.09324415" y="0" />
+<pr uId="182" fId="0" fbTx="20.02759634" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="182" tId="1" fbRx="20.02760051" lbRx="0" />
+<pr uId="183" fId="0" fbTx="20.02795034" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=9) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 7 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49156 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(20027;20022) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="183" tId="1" fbRx="20.02795451" lbRx="0" />
+<pr uId="184" fId="1" fbTx="20.02885651" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="184" tId="0" fbRx="20.02886068" lbRx="0" />
+<wpr uId="184" tId="2" fbRx="20.02886068" lbRx="0" />
+<nu p="p" t="20.25" id="0" x="64.59453634" y="0" />
+<nu p="p" t="20.25" id="1" x="114.6656916" y="0" />
+<nu p="p" t="20.25" id="2" x="164.7410641" y="0" />
+<nu p="p" t="20.25" id="3" x="214.8182312" y="0" />
+<nu p="p" t="20.25" id="4" x="264.8875005" y="0" />
+<nu p="p" t="20.5" id="0" x="66.28203634" y="0" />
+<nu p="p" t="20.5" id="1" x="116.3531916" y="0" />
+<nu p="p" t="20.5" id="2" x="166.4285641" y="0" />
+<nu p="p" t="20.5" id="3" x="216.5057312" y="0" />
+<nu p="p" t="20.5" id="4" x="266.5750005" y="0" />
+<nu p="p" t="20.75" id="0" x="67.96953634" y="0" />
+<nu p="p" t="20.75" id="1" x="118.0406916" y="0" />
+<nu p="p" t="20.75" id="2" x="168.1160641" y="0" />
+<nu p="p" t="20.75" id="3" x="218.1932312" y="0" />
+<nu p="p" t="20.75" id="4" x="268.2625005" y="0" />
+<nu p="p" t="21" id="0" x="69.65703634" y="0" />
+<nu p="p" t="21" id="1" x="119.7281916" y="0" />
+<nu p="p" t="21" id="2" x="169.8035641" y="0" />
+<nu p="p" t="21" id="3" x="219.8807312" y="0" />
+<nu p="p" t="21" id="4" x="269.9500005" y="0" />
+<nu p="p" t="21.25" id="0" x="71.34453634" y="0" />
+<nu p="p" t="21.25" id="1" x="121.4156916" y="0" />
+<nu p="p" t="21.25" id="2" x="171.4910641" y="0" />
+<nu p="p" t="21.25" id="3" x="221.5682312" y="0" />
+<nu p="p" t="21.25" id="4" x="271.6375005" y="0" />
+<nu p="p" t="21.5" id="0" x="73.03203634" y="0" />
+<nu p="p" t="21.5" id="1" x="123.1031916" y="0" />
+<nu p="p" t="21.5" id="2" x="173.1785641" y="0" />
+<nu p="p" t="21.5" id="3" x="223.2557312" y="0" />
+<nu p="p" t="21.5" id="4" x="273.3250005" y="0" />
+<nu p="p" t="21.75" id="0" x="74.71953634" y="0" />
+<nu p="p" t="21.75" id="1" x="124.7906916" y="0" />
+<nu p="p" t="21.75" id="2" x="174.8660641" y="0" />
+<nu p="p" t="21.75" id="3" x="224.9432312" y="0" />
+<nu p="p" t="21.75" id="4" x="275.0125005" y="0" />
+<nu p="p" t="22" id="0" x="76.40703634" y="0" />
+<nu p="p" t="22" id="1" x="126.4781916" y="0" />
+<nu p="p" t="22" id="2" x="176.5535641" y="0" />
+<nu p="p" t="22" id="3" x="226.6307312" y="0" />
+<nu p="p" t="22" id="4" x="276.7000005" y="0" />
+<nu p="p" t="22.25" id="0" x="78.09453634" y="0" />
+<nu p="p" t="22.25" id="1" x="128.1656916" y="0" />
+<nu p="p" t="22.25" id="2" x="178.2410641" y="0" />
+<nu p="p" t="22.25" id="3" x="228.3182312" y="0" />
+<nu p="p" t="22.25" id="4" x="278.3875005" y="0" />
+<nu p="p" t="22.5" id="0" x="79.78203634" y="0" />
+<nu p="p" t="22.5" id="1" x="129.8531916" y="0" />
+<nu p="p" t="22.5" id="2" x="179.9285641" y="0" />
+<nu p="p" t="22.5" id="3" x="230.0057312" y="0" />
+<nu p="p" t="22.5" id="4" x="280.0750005" y="0" />
+<nu p="p" t="22.75" id="0" x="81.46953634" y="0" />
+<nu p="p" t="22.75" id="1" x="131.5406916" y="0" />
+<nu p="p" t="22.75" id="2" x="181.6160641" y="0" />
+<nu p="p" t="22.75" id="3" x="231.6932312" y="0" />
+<nu p="p" t="22.75" id="4" x="281.7625005" y="0" />
+<nu p="p" t="23" id="0" x="83.15703634" y="0" />
+<nu p="p" t="23" id="1" x="133.2281916" y="0" />
+<nu p="p" t="23" id="2" x="183.3035641" y="0" />
+<nu p="p" t="23" id="3" x="233.3807312" y="0" />
+<nu p="p" t="23" id="4" x="283.4500005" y="0" />
+<nu p="p" t="23.25" id="0" x="84.84453634" y="0" />
+<nu p="p" t="23.25" id="1" x="134.9156916" y="0" />
+<nu p="p" t="23.25" id="2" x="184.9910641" y="0" />
+<nu p="p" t="23.25" id="3" x="235.0682312" y="0" />
+<nu p="p" t="23.25" id="4" x="285.1375005" y="0" />
+<nu p="p" t="23.5" id="0" x="86.53203634" y="0" />
+<nu p="p" t="23.5" id="1" x="136.6031916" y="0" />
+<nu p="p" t="23.5" id="2" x="186.6785641" y="0" />
+<nu p="p" t="23.5" id="3" x="236.7557312" y="0" />
+<nu p="p" t="23.5" id="4" x="286.8250005" y="0" />
+<nu p="p" t="23.75" id="0" x="88.21953634" y="0" />
+<nu p="p" t="23.75" id="1" x="138.2906916" y="0" />
+<nu p="p" t="23.75" id="2" x="188.3660641" y="0" />
+<nu p="p" t="23.75" id="3" x="238.4432312" y="0" />
+<nu p="p" t="23.75" id="4" x="288.5125005" y="0" />
+<nu p="p" t="24" id="0" x="89.90703634" y="0" />
+<nu p="p" t="24" id="1" x="139.9781916" y="0" />
+<nu p="p" t="24" id="2" x="190.0535641" y="0" />
+<nu p="p" t="24" id="3" x="240.1307312" y="0" />
+<nu p="p" t="24" id="4" x="290.2000005" y="0" />
+<nu p="p" t="24.25" id="0" x="91.59453634" y="0" />
+<nu p="p" t="24.25" id="1" x="141.6656916" y="0" />
+<nu p="p" t="24.25" id="2" x="191.7410641" y="0" />
+<nu p="p" t="24.25" id="3" x="241.8182312" y="0" />
+<nu p="p" t="24.25" id="4" x="291.8875005" y="0" />
+<nu p="p" t="24.5" id="0" x="93.28203634" y="0" />
+<nu p="p" t="24.5" id="1" x="143.3531916" y="0" />
+<nu p="p" t="24.5" id="2" x="193.4285641" y="0" />
+<nu p="p" t="24.5" id="3" x="243.5057312" y="0" />
+<nu p="p" t="24.5" id="4" x="293.5750005" y="0" />
+<nu p="p" t="24.75" id="0" x="94.96953634" y="0" />
+<nu p="p" t="24.75" id="1" x="145.0406916" y="0" />
+<nu p="p" t="24.75" id="2" x="195.1160641" y="0" />
+<nu p="p" t="24.75" id="3" x="245.1932312" y="0" />
+<nu p="p" t="24.75" id="4" x="295.2625005" y="0" />
+<nu p="p" t="25" id="4" x="296.9500005" y="0" />
+<nu p="p" t="25" id="0" x="96.65703634" y="0" />
+<nu p="p" t="25" id="1" x="146.7281916" y="0" />
+<nu p="p" t="25" id="2" x="196.8035641" y="0" />
+<nu p="p" t="25" id="3" x="246.8807312" y="0" />
+<pr uId="185" fId="4" fbTx="25.00005" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=14) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 12 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49157 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(25000;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="185" tId="3" fbRx="25.00005417" lbRx="0" />
+<pr uId="186" fId="3" fbTx="25.00098817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="186" tId="2" fbRx="25.00099233" lbRx="0" />
+<wpr uId="186" tId="4" fbRx="25.00099233" lbRx="0" />
+<pr uId="187" fId="3" fbTx="25.00134217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=24) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49157 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(25000;25000) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="187" tId="2" fbRx="25.00134633" lbRx="0" />
+<wpr uId="187" tId="4" fbRx="25.00134633" lbRx="0" />
+<pr uId="188" fId="4" fbTx="25.00228033" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="188" tId="3" fbRx="25.0022845" lbRx="0" />
+<pr uId="189" fId="4" fbTx="25.00297433" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=15) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 13 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25002;25000) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="189" tId="3" fbRx="25.0029785" lbRx="0" />
+<pr uId="190" fId="3" fbTx="25.0038805" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="190" tId="2" fbRx="25.00388467" lbRx="0" />
+<wpr uId="190" tId="4" fbRx="25.00388467" lbRx="0" />
+<pr uId="191" fId="4" fbTx="25.00441467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:05, BSSID=00:00:00:00:00:05, FragNumber=0, SeqNumber=16) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 14 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.5 &gt; 10.0.0.4) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25002;25000) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="191" tId="3" fbRx="25.00441883" lbRx="0" />
+<nu p="p" t="25.00535084" id="3" x="246.9168494" y="0" />
+<pr uId="192" fId="3" fbTx="25.00536084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:05) ns3::WifiMacTrailer ()" />
+<wpr uId="192" tId="2" fbRx="25.005365" lbRx="0" />
+<wpr uId="192" tId="4" fbRx="25.005365" lbRx="0" />
+<pr uId="193" fId="3" fbTx="25.00571483" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=25) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 12 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49157 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(25005;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="193" tId="2" fbRx="25.005719" lbRx="0" />
+<wpr uId="193" tId="4" fbRx="25.005719" lbRx="0" />
+<pr uId="194" fId="2" fbTx="25.006653" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="194" tId="1" fbRx="25.00665717" lbRx="0" />
+<wpr uId="194" tId="3" fbRx="25.00665717" lbRx="0" />
+<pr uId="195" fId="2" fbTx="25.007007" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=24) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49157 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(25006;25005) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="195" tId="1" fbRx="25.00701117" lbRx="0" />
+<wpr uId="195" tId="3" fbRx="25.00701117" lbRx="0" />
+<pr uId="196" fId="3" fbTx="25.00794517" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="196" tId="2" fbRx="25.00794934" lbRx="0" />
+<wpr uId="196" tId="4" fbRx="25.00794934" lbRx="0" />
+<pr uId="197" fId="3" fbTx="25.00881917" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:05, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=26) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.5) ns3::TcpHeader (8080 &gt; 49157 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(25005;25002) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="197" tId="2" fbRx="25.00882334" lbRx="0" />
+<wpr uId="197" tId="4" fbRx="25.00882334" lbRx="0" />
+<pr uId="198" fId="4" fbTx="25.00972534" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="198" tId="3" fbRx="25.0097295" lbRx="0" />
+<pr uId="199" fId="3" fbTx="25.0101395" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=27) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 13 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25007;25006) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="199" tId="2" fbRx="25.01014367" lbRx="0" />
+<wpr uId="199" tId="4" fbRx="25.01014367" lbRx="0" />
+<pr uId="200" fId="2" fbTx="25.01104567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="200" tId="1" fbRx="25.01104984" lbRx="0" />
+<wpr uId="200" tId="3" fbRx="25.01104984" lbRx="0" />
+<pr uId="201" fId="3" fbTx="25.01149984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:04, BSSID=00:00:00:00:00:04, FragNumber=0, SeqNumber=28) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 14 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.4 &gt; 10.0.0.3) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25007;25006) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="201" tId="2" fbRx="25.011504" lbRx="0" />
+<wpr uId="201" tId="4" fbRx="25.011504" lbRx="0" />
+<nu p="p" t="25.012436" id="2" x="196.8875072" y="0" />
+<pr uId="202" fId="2" fbTx="25.012446" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:04) ns3::WifiMacTrailer ()" />
+<wpr uId="202" tId="1" fbRx="25.01245017" lbRx="0" />
+<wpr uId="202" tId="3" fbRx="25.01245017" lbRx="0" />
+<pr uId="203" fId="2" fbTx="25.0128" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=25) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 12 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49157 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(25012;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="203" tId="1" fbRx="25.01280417" lbRx="0" />
+<wpr uId="203" tId="3" fbRx="25.01280417" lbRx="0" />
+<pr uId="204" fId="1" fbTx="25.01373817" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="204" tId="0" fbRx="25.01374234" lbRx="0" />
+<wpr uId="204" tId="2" fbRx="25.01374234" lbRx="0" />
+<pr uId="205" fId="1" fbTx="25.01409217" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=24) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49157 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(25013;25012) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="205" tId="0" fbRx="25.01409634" lbRx="0" />
+<wpr uId="205" tId="2" fbRx="25.01409634" lbRx="0" />
+<pr uId="206" fId="2" fbTx="25.01503034" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="206" tId="1" fbRx="25.0150345" lbRx="0" />
+<wpr uId="206" tId="3" fbRx="25.0150345" lbRx="0" />
+<pr uId="207" fId="2" fbTx="25.01598434" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:04, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=26) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.4) ns3::TcpHeader (8080 &gt; 49157 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(25012;25007) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="207" tId="1" fbRx="25.0159885" lbRx="0" />
+<wpr uId="207" tId="3" fbRx="25.0159885" lbRx="0" />
+<pr uId="208" fId="3" fbTx="25.0168905" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="208" tId="2" fbRx="25.01689467" lbRx="0" />
+<wpr uId="208" tId="4" fbRx="25.01689467" lbRx="0" />
+<pr uId="209" fId="2" fbTx="25.01762467" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=27) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 13 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25015;25013) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="209" tId="1" fbRx="25.01762884" lbRx="0" />
+<wpr uId="209" tId="3" fbRx="25.01762884" lbRx="0" />
+<pr uId="210" fId="1" fbTx="25.01853084" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="210" tId="0" fbRx="25.01853501" lbRx="0" />
+<wpr uId="210" tId="2" fbRx="25.01853501" lbRx="0" />
+<pr uId="211" fId="2" fbTx="25.01908501" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:03, BSSID=00:00:00:00:00:03, FragNumber=0, SeqNumber=28) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 14 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.3 &gt; 10.0.0.2) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25015;25013) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="211" tId="1" fbRx="25.01908917" lbRx="0" />
+<wpr uId="211" tId="3" fbRx="25.01908917" lbRx="0" />
+<nu p="p" t="25.02002117" id="1" x="146.8633346" y="0" />
+<pr uId="212" fId="1" fbTx="25.02003117" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:03) ns3::WifiMacTrailer ()" />
+<wpr uId="212" tId="0" fbRx="25.02003534" lbRx="0" />
+<wpr uId="212" tId="2" fbRx="25.02003534" lbRx="0" />
+<pr uId="213" fId="1" fbTx="25.02038517" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=25) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 12 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49157 &gt; 8080 [SYN] Seq=0 Ack=0 Win=65535 ns3::TcpOptionTS(25020;0) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="213" tId="0" fbRx="25.02038934" lbRx="0" />
+<wpr uId="213" tId="2" fbRx="25.02038934" lbRx="0" />
+<pr uId="214" fId="0" fbTx="25.02132334" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="214" tId="1" fbRx="25.02132751" lbRx="0" />
+<pr uId="215" fId="0" fbTx="25.02167734" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=10) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 8 protocol 6 offset (bytes) 0 flags [none] length: 56 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49157 [SYN|ACK] Seq=0 Ack=1 Win=65535 ns3::TcpOptionTS(25021;25020) ns3::TcpOptionWinScale(2) ns3::TcpOptionSackPermitted([sack_perm]) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="215" tId="1" fbRx="25.02168151" lbRx="0" />
+<pr uId="216" fId="1" fbTx="25.02261551" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="216" tId="0" fbRx="25.02261967" lbRx="0" />
+<wpr uId="216" tId="2" fbRx="25.02261967" lbRx="0" />
+<pr uId="217" fId="1" fbTx="25.02300951" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:03, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=26) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.3) ns3::TcpHeader (8080 &gt; 49157 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(25020;25015) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="217" tId="0" fbRx="25.02301367" lbRx="0" />
+<wpr uId="217" tId="2" fbRx="25.02301367" lbRx="0" />
+<pr uId="218" fId="2" fbTx="25.02391567" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="218" tId="1" fbRx="25.02391984" lbRx="0" />
+<wpr uId="218" tId="3" fbRx="25.02391984" lbRx="0" />
+<pr uId="219" fId="1" fbTx="25.02468984" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=27) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 13 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25022;25021) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="219" tId="0" fbRx="25.02469401" lbRx="0" />
+<wpr uId="219" tId="2" fbRx="25.02469401" lbRx="0" />
+<pr uId="220" fId="0" fbTx="25.02559601" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="220" tId="1" fbRx="25.02560018" lbRx="0" />
+<pr uId="221" fId="1" fbTx="25.02631017" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:01, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:02, FragNumber=0, SeqNumber=28) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 14 protocol 6 offset (bytes) 0 flags [none] length: 57 10.0.0.2 &gt; 10.0.0.1) ns3::TcpHeader (49157 &gt; 8080 [ACK] Seq=1 Ack=1 Win=32768 ns3::TcpOptionTS(25022;25021) ns3::TcpOptionEnd(EOL)) Payload (size=5) ns3::WifiMacTrailer ()" />
+<wpr uId="221" tId="0" fbRx="25.02631434" lbRx="0" />
+<wpr uId="221" tId="2" fbRx="25.02631434" lbRx="0" />
+<nu p="p" t="25.02724634" id="0" x="96.84094915" y="0" />
+<pr uId="222" fId="0" fbTx="25.02725634" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:02) ns3::WifiMacTrailer ()" />
+<wpr uId="222" tId="1" fbRx="25.02726051" lbRx="0" />
+<pr uId="223" fId="0" fbTx="25.02761034" meta-info="ns3::WifiMacHeader (DATA ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=314us, DA=00:00:00:00:00:02, SA=00:00:00:00:00:01, BSSID=00:00:00:00:00:01, FragNumber=0, SeqNumber=11) ns3::LlcSnapHeader (type 0x800) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 9 protocol 6 offset (bytes) 0 flags [none] length: 52 10.0.0.1 &gt; 10.0.0.2) ns3::TcpHeader (8080 &gt; 49157 [ACK] Seq=1 Ack=6 Win=32768 ns3::TcpOptionTS(25027;25022) ns3::TcpOptionEnd(EOL)) ns3::WifiMacTrailer ()" />
+<wpr uId="223" tId="1" fbRx="25.02761451" lbRx="0" />
+<pr uId="224" fId="1" fbTx="25.02851651" meta-info="ns3::WifiMacHeader (CTL_ACK Duration/ID=0us, RA=00:00:00:00:00:01) ns3::WifiMacTrailer ()" />
+<wpr uId="224" tId="0" fbRx="25.02852068" lbRx="0" />
+<wpr uId="224" tId="2" fbRx="25.02852068" lbRx="0" />
+<nu p="p" t="25.25" id="0" x="98.61406827" y="0" />
+<nu p="p" t="25.25" id="1" x="148.693966" y="0" />
+<nu p="p" t="25.25" id="2" x="198.7785166" y="0" />
+<nu p="p" t="25.25" id="3" x="248.8642567" y="0" />
+<nu p="p" t="25.25" id="4" x="298.9400005" y="0" />
+<nu p="p" t="25.5" id="0" x="100.6040683" y="0" />
+<nu p="p" t="25.5" id="1" x="150.683966" y="0" />
+<nu p="p" t="25.5" id="2" x="200.7685166" y="0" />
+<nu p="p" t="25.5" id="3" x="250.8542567" y="0" />
+<nu p="p" t="25.5" id="4" x="300.9300005" y="0" />
+<nu p="p" t="25.75" id="0" x="102.5940683" y="0" />
+<nu p="p" t="25.75" id="1" x="152.673966" y="0" />
+<nu p="p" t="25.75" id="2" x="202.7585166" y="0" />
+<nu p="p" t="25.75" id="3" x="252.8442568" y="0" />
+<nu p="p" t="25.75" id="4" x="302.9200006" y="0" />
+<nu p="p" t="26" id="0" x="104.5840683" y="0" />
+<nu p="p" t="26" id="1" x="154.6639661" y="0" />
+<nu p="p" t="26" id="2" x="204.7485166" y="0" />
+<nu p="p" t="26" id="3" x="254.8342568" y="0" />
+<nu p="p" t="26" id="4" x="304.9100006" y="0" />
+<nu p="p" t="26.25" id="0" x="106.5740683" y="0" />
+<nu p="p" t="26.25" id="1" x="156.6539661" y="0" />
+<nu p="p" t="26.25" id="2" x="206.7385166" y="0" />
+<nu p="p" t="26.25" id="3" x="256.8242568" y="0" />
+<nu p="p" t="26.25" id="4" x="306.9000006" y="0" />
+<nu p="p" t="26.5" id="0" x="108.5640683" y="0" />
+<nu p="p" t="26.5" id="1" x="158.6439661" y="0" />
+<nu p="p" t="26.5" id="2" x="208.7285166" y="0" />
+<nu p="p" t="26.5" id="3" x="258.8142568" y="0" />
+<nu p="p" t="26.5" id="4" x="308.8900006" y="0" />
+<nu p="p" t="26.75" id="0" x="110.5540683" y="0" />
+<nu p="p" t="26.75" id="1" x="160.6339661" y="0" />
+<nu p="p" t="26.75" id="2" x="210.7185166" y="0" />
+<nu p="p" t="26.75" id="3" x="260.8042568" y="0" />
+<nu p="p" t="26.75" id="4" x="310.8800006" y="0" />
+<nu p="p" t="27" id="0" x="112.5440683" y="0" />
+<nu p="p" t="27" id="1" x="162.6239661" y="0" />
+<nu p="p" t="27" id="2" x="212.7085166" y="0" />
+<nu p="p" t="27" id="3" x="262.7942568" y="0" />
+<nu p="p" t="27" id="4" x="312.8700006" y="0" />
+<nu p="p" t="27.25" id="0" x="114.5340684" y="0" />
+<nu p="p" t="27.25" id="1" x="164.6139661" y="0" />
+<nu p="p" t="27.25" id="2" x="214.6985167" y="0" />
+<nu p="p" t="27.25" id="3" x="264.7842568" y="0" />
+<nu p="p" t="27.25" id="4" x="314.8600006" y="0" />
+<nu p="p" t="27.5" id="0" x="116.5240684" y="0" />
+<nu p="p" t="27.5" id="1" x="166.6039661" y="0" />
+<nu p="p" t="27.5" id="2" x="216.6885167" y="0" />
+<nu p="p" t="27.5" id="3" x="266.7742568" y="0" />
+<nu p="p" t="27.5" id="4" x="316.8500006" y="0" />
+<nu p="p" t="27.75" id="0" x="118.5140684" y="0" />
+<nu p="p" t="27.75" id="1" x="168.5939661" y="0" />
+<nu p="p" t="27.75" id="2" x="218.6785167" y="0" />
+<nu p="p" t="27.75" id="3" x="268.7642568" y="0" />
+<nu p="p" t="27.75" id="4" x="318.8400006" y="0" />
+<nu p="p" t="28" id="0" x="120.5040684" y="0" />
+<nu p="p" t="28" id="1" x="170.5839661" y="0" />
+<nu p="p" t="28" id="2" x="220.6685167" y="0" />
+<nu p="p" t="28" id="3" x="270.7542568" y="0" />
+<nu p="p" t="28" id="4" x="320.8300006" y="0" />
+<nu p="p" t="28.25" id="0" x="122.4940684" y="0" />
+<nu p="p" t="28.25" id="1" x="172.5739661" y="0" />
+<nu p="p" t="28.25" id="2" x="222.6585167" y="0" />
+<nu p="p" t="28.25" id="3" x="272.7442568" y="0" />
+<nu p="p" t="28.25" id="4" x="322.8200006" y="0" />
+<nu p="p" t="28.5" id="0" x="124.4840684" y="0" />
+<nu p="p" t="28.5" id="1" x="174.5639661" y="0" />
+<nu p="p" t="28.5" id="2" x="224.6485167" y="0" />
+<nu p="p" t="28.5" id="3" x="274.7342569" y="0" />
+<nu p="p" t="28.5" id="4" x="324.8100007" y="0" />
+<nu p="p" t="28.75" id="0" x="126.4740684" y="0" />
+<nu p="p" t="28.75" id="1" x="176.5539662" y="0" />
+<nu p="p" t="28.75" id="2" x="226.6385167" y="0" />
+<nu p="p" t="28.75" id="3" x="276.7242569" y="0" />
+<nu p="p" t="28.75" id="4" x="326.8000007" y="0" />
+<nu p="p" t="29" id="0" x="128.4640684" y="0" />
+<nu p="p" t="29" id="1" x="178.5439662" y="0" />
+<nu p="p" t="29" id="2" x="228.6285167" y="0" />
+<nu p="p" t="29" id="3" x="278.7142569" y="0" />
+<nu p="p" t="29" id="4" x="328.7900007" y="0" />
+<nu p="p" t="29.25" id="0" x="130.4540684" y="0" />
+<nu p="p" t="29.25" id="1" x="180.5339662" y="0" />
+<nu p="p" t="29.25" id="2" x="230.6185167" y="0" />
+<nu p="p" t="29.25" id="3" x="280.7042569" y="0" />
+<nu p="p" t="29.25" id="4" x="330.7800007" y="0" />
+<nu p="p" t="29.5" id="0" x="132.4440684" y="0" />
+<nu p="p" t="29.5" id="1" x="182.5239662" y="0" />
+<nu p="p" t="29.5" id="2" x="232.6085167" y="0" />
+<nu p="p" t="29.5" id="3" x="282.6942569" y="0" />
+<nu p="p" t="29.5" id="4" x="332.7700007" y="0" />
+<nu p="p" t="29.75" id="0" x="134.4340684" y="0" />
+<nu p="p" t="29.75" id="1" x="184.5139662" y="0" />
+<nu p="p" t="29.75" id="2" x="234.5985168" y="0" />
+<nu p="p" t="29.75" id="3" x="284.6842569" y="0" />
+<nu p="p" t="29.75" id="4" x="334.7600007" y="0" />
+</anim>
